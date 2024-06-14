@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:paddingHorizontal="64dp"
+    android:paddingVertical="128dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome_text"
+        android:text="Welcome"
+        android:fontFamily="@font/rubik_bold"
+        android:textSize="32dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fullname_text"
+            android:layout_below="@id/welcome_text"
+            android:text="Fikri Rivandi"
+            android:fontFamily="@font/rubik_medium"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_text"
+            android:layout_below="@id/fullname_text"
+            android:text="fixri2104@gmail.com"
+            android:fontFamily="@font/rubik_medium"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/web_text"
+            android:layout_below="@id/email_text"
+            android:text="freack21.github.io"
+            android:fontFamily="@font/rubik_medium"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
