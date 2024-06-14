@@ -29,7 +29,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/fullname_text"
-            android:layout_below="@id/welcome_text"
             android:text="Fikri Rivandi"
             android:fontFamily="@font/rubik_medium"
             android:textSize="16dp"
